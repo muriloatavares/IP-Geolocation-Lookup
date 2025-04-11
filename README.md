@@ -19,10 +19,10 @@ Projeto para consulta de **geolocalização baseada em IP ou domínio**. A aplic
 
 | Tecnologia | Descrição |
 |-----------|-----------|
-| ![HTML5](https://upload.wikimedia.org/wikipedia/commons/8/8d/HTML5_Badge.svg) | **HTML5** - Estrutura da interface |
-| ![CSS3](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg) | **CSS3** - Estilização e temas |
-| ![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) | **JavaScript** - Lógica da interface e comunicação com a API |
-| ![PHP](https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg) | **PHP** - Backend da API de geolocalização |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/HTML5_Badge.svg" alt="HTML5" width="50"/> | **HTML5** - Estrutura da interface |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" width="50"/> | **CSS3** - Estilização e temas |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50"/> | **JavaScript** - Lógica da interface e comunicação com a API |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" width="50"/> | **PHP** - Backend da API de geolocalização |
 | 🛰️ **Fetch API** - Requisições assíncronas |
 | 💾 **LocalStorage** - Persistência de preferências (tema e idioma) |
 
