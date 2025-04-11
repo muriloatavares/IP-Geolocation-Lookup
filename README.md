@@ -1,83 +1,92 @@
-# IP Geolocation Lookup
+# 🌍 IP Geolocation Lookup
 
-Este é um projeto de consulta de geolocalização baseado em IP ou domínio. Ele utiliza uma API para buscar informações detalhadas sobre a localização de um endereço IP ou domínio fornecido.
+Projeto para consulta de **geolocalização baseada em IP ou domínio**. A aplicação utiliza uma API própria para buscar informações detalhadas como país, cidade, ISP, latitude, longitude, entre outros dados relevantes.
 
-## 📋 Funcionalidades
+---
 
-- **Consulta de Geolocalização**: Insira um endereço IP ou domínio para obter informações detalhadas, como país, região, cidade, ISP, latitude, longitude, fuso horário, entre outros.
-- **Cópia de Resultados**: Copie os resultados da consulta para a área de transferência com um clique.
-- **Suporte a Temas**: Alternância entre tema claro e escuro.
-- **Suporte a Idiomas**: Interface disponível em Português e Inglês.
-- **Validação de Entrada**: Verifica se o IP ou domínio inserido é válido antes de realizar a consulta.
-- **Animação Suave**: Transições suaves para mudanças de tema e atualizações de conteúdo.
+## ⚙️ Funcionalidades
 
-## 🛠️ Tecnologias Utilizadas
+- 🔍 **Consulta de IP/Domínio** com dados detalhados.
+- 📋 **Cópia rápida dos resultados** para a área de transferência.
+- 🎨 **Tema claro e escuro** com transições suaves.
+- 🌐 **Interface bilíngue**: Português 🇧🇷 e Inglês 🇺🇸.
+- 🛡️ **Validação de entradas** para IPs e domínios.
+- ✨ **Experiência fluida** com animações leves.
 
-### Linguagens e Ferramentas
+---
 
-- **HTML5**  
-  ![HTML5](https://upload.wikimedia.org/wikipedia/commons/8/8d/HTML5_Badge.svg)
+## 🧰 Tecnologias Utilizadas
 
-- **CSS3**  
-  ![CSS3](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg)
+| Tecnologia | Descrição |
+|-----------|-----------|
+| ![HTML5](https://upload.wikimedia.org/wikipedia/commons/8/8d/HTML5_Badge.svg) | **HTML5** - Estrutura da interface |
+| ![CSS3](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg) | **CSS3** - Estilização e temas |
+| ![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) | **JavaScript** - Lógica da interface e comunicação com a API |
+| ![PHP](https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg) | **PHP** - Backend da API de geolocalização |
+| 🛰️ **Fetch API** - Requisições assíncronas |
+| 💾 **LocalStorage** - Persistência de preferências (tema e idioma) |
 
-- **JavaScript**  
-  ![JavaScript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
+---
 
-- **PHP (para a API)**  
-  ![PHP](https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg)
+## 📁 Estrutura do Projeto
 
-- **Fetch API**: Para comunicação com o backend.
-
-- **LocalStorage**: Para persistência de tema e idioma selecionados.
-
-## 📂 Estrutura do Projeto
-
-```plaintext
+```
 c:\xampp\htdocs\
-├── [index.html](http://_vscodecontentref_/0)       # Arquivo principal do projeto
-├── geo-api/
-│   └── index.php    # Backend para consulta de geolocalização
+├── index.html         # Página principal da aplicação
+└── geo-api/
+    └── index.php      # Backend da API de geolocalização
+```
 
-🚀 Como Executar o Projeto
-Pré-requisitos:
+---
 
-Servidor local como XAMPP ou similar.
-Navegador moderno com suporte a JavaScript.
-Configuração:
+## 🚀 Como Executar
 
-Coloque os arquivos do projeto na pasta htdocs do XAMPP.
-Certifique-se de que o servidor Apache e o MySQL estão em execução.
-Execução:
+### Pré-requisitos
+- Servidor local (como **XAMPP**)
+- Navegador moderno
 
-Acesse o projeto no navegador através do endereço: http://localhost/index.html.
+### Passo a Passo
+1. Copie os arquivos do projeto para a pasta `htdocs` do XAMPP.
+2. Inicie o **Apache** no painel de controle do XAMPP.
+3. Acesse no navegador: [http://localhost/index.html](http://localhost/index.html)
 
-🌐 Uso da Interface
-Consulta de IP/Domínio:
+---
 
-Insira um endereço IP ou domínio válido no campo de entrada.
-Clique no botão "Search" (ou "Consultar", dependendo do idioma selecionado).
-Cópia de Resultados:
+## 💻 Como Usar
 
-Após a consulta, clique no botão "Copy" (ou "Copiar") para copiar os resultados para a área de transferência.
-Alternância de Tema:
+### 🔎 Consulta de IP ou Domínio
+- Digite um IP ou domínio válido no campo de busca.
+- Clique em **"Consultar"** / **"Search"**.
 
-Clique no ícone de lua/sol no canto superior direito para alternar entre os temas claro e escuro.
-Alteração de Idioma:
+### 📋 Copiar Resultados
+- Após a consulta, clique em **"Copiar"** / **"Copy"** para salvar os dados na área de transferência.
 
-Use o seletor de idioma no canto superior direito para alternar entre Português e Inglês.
+### 🌓 Alternar Tema
+- Clique no ícone de lua/sol para mudar entre **modo claro** e **modo escuro**.
 
-📷 Capturas de Tela
-Tema Claro
-<img alt="Tema Claro" src="https://via.placeholder.com/400x300?text=Tema+Claro">
-Tema Escuro
-<img alt="Tema Escuro" src="https://via.placeholder.com/400x300?text=Tema+Escuro">
+### 🌐 Trocar Idioma
+- Use o seletor no topo direito para escolher entre **Português** e **Inglês**.
 
-📝 Melhorias Futuras
-Adicionar suporte a mais idiomas.
-Implementar um sistema de cache para consultas recentes.
-Melhorar a interface para dispositivos móveis.
-Adicionar gráficos para visualização de dados de geolocalização.
+---
 
-📄 Licença
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+## 🖼️ Capturas de Tela
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x300?text=Tema+Claro" alt="Tema Claro" width="300"/>
+  <img src="https://via.placeholder.com/400x300?text=Tema+Escuro" alt="Tema Escuro" width="300"/>
+</p>
+
+---
+
+## 🧪 Melhorias Futuras
+
+- ✅ Suporte a mais idiomas
+- ✅ Cache de consultas recentes
+- ✅ Interface aprimorada para mobile
+- ✅ Visualização gráfica dos dados geográficos
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
